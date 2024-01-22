@@ -1,0 +1,13 @@
+.gallery-card__link:hover .gallery-card__img {
+  opacity: 0.2;
+  transform: scale(1);
+}
+
+.gallery-card__link:hover .gallery-card__info {
+  visibility: visible;
+  opacity: 1;
+}
+
+.gallery-card__link:hover .gallery-card__content {
+  transform: translateY(-30px);
+}

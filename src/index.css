@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  display: flex;
+}
+
+body {
+  height: 100%;
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-image: url("../src/assets/tm-bg-1.jpeg");
+}
+
+.site-container {
+  max-width: 1360px;
+  width: 100%;
+  padding: 0 11px;
+  margin: 0 auto;
+}
