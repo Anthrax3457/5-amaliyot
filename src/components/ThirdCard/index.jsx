@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 // image
-import Img1 from '../../assets/images/tm-img-06.jpg'
+import Img1 from '../../assets/images/tm-img-04.jpg'
+import Img2 from '../../assets/images/tm-img-12.jpg'
+import Img3 from '../../assets/images/tm-img-13.jpg'
+import Img4 from '../../assets/images/tm-img-14.jpg'
+import Img5 from '../../assets/images/tm-img-15.jpg'
+import Img6 from '../../assets/images/tm-img-16.jpg'
 // style
 import "./style.css";
 import { Link } from "react-router-dom";
@@ -15,32 +20,32 @@ const ThirdCard = () => {
             text: " Suspendisse id placerat risus. Mauris quis luctus risus.",
         },
         {
-            img: Img1,
+            img: Img2,
             title: "PICTURE TWO",
             text: "Maecenas purus sem, lobortis id odio in sapien.",
         },
         {
-            img: Img1,
+            img: Img3,
             title: "PICTURE THREE",
             text: " Suspendisse id placerat risus. Mauris quis luctus risus.",
         },
         {
-            img: Img1,
+            img: Img4,
             title: "PICTURE FOUR",
             text: "Maecenas purus sem, lobortis id odio in sapien.",
         },
         {
-            img: Img1,
+            img: Img5,
             title: "PICTURE FIVE",
             text: " Suspendisse id placerat risus. Mauris quis luctus risus.",
         },
         {
-            img: Img1,
+            img: Img6,
             title: "PICTURE SIX",
             text: "Maecenas purus sem, lobortis id odio in sapien.",
         },
     ];
-    const images = [Img1, Img1, Img1, Img1];
+    const images = [Img1, Img2, Img3, Img4, Img5, Img6];
     return (
         <div className="lg:px-2 xl:px-0">
             <ul className={`gallery-card__list grid justify-center mt-[32px] gap-y-[21px] md:gap-y-[20px] md:grid-cols-1 lg:grid-cols-2 lg:gap-x-5 lg:mt-[29px] lg:gap-y-[22px] xl:gap-x-5 xl:gap-y-9${openModal ? 'block' : ''}`}>
@@ -65,7 +70,7 @@ const ThirdCard = () => {
                                         </h2>
                                         <div className="gallery-card__info p-[20px] mt-[0px] md:mt-[16px] border-[1px] border-white text-[16px] invisible opacity-0 transition-all duration-300">
                                             <p className="lg:w-[100px] ] xl:w-[100%]">
-                                                {item.text}         
+                                                {item.text}
                                             </p>
                                         </div>
                                     </div>

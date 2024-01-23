@@ -1,0 +1,6 @@
+.App {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-image: url("../src/assets/tm-bg-1.jpeg");
+}

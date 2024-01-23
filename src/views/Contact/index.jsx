@@ -18,20 +18,20 @@ const Contact = () => {
           </div>
         </div>
         <div className='h-[585px] md:h-[650px] bg-white bg-opacity-[0.5] mt-[20px] pt-[34px] md:pl-[33px] lg:w-[490px]  xl:w-[555px] md:px-0 md:pt-[10px] lg:pl-[38px] lg:px-0 lg:h-[615px] px-[40px] xl:px-[22px] md:w-[365px]'>
-          <p className='pt-[17px] leading-[1.2] tracking-[-0.45px] md:tracking-[-0.90px] lg:w-[92%]  w-[88%] md:w-[99%] text-[1.6em]'>
+          <p className='pt-[17px] leading-[1.2] font-extralight tracking-[-0.45px] md:tracking-[-0.90px] lg:w-[92%]  w-[88%] md:w-[99%] text-[1.6em]'>
             123 New Street 11000, San Francisco, CA
           </p>
           <div className='flex justify-center mt-[10px] ml-[-30px] xl:ml-[-10px] xl:mt-[23px]'>
             <div className=' h-[425px] md:w-[310px] bg-gray-200 md:h-[520px]  px-[15px] lg:h-[430px] lg:w-[430px]  xl:w-[500px]'>
-              <div className='grid mt-[15px] pt-[50%] justify-center items-center text-center'>
+              <div className='grid mt-[15px] pt-[50%] lg:pt-[30%] justify-center items-center text-center'>
                 <div className='grid justify-center'>
-                  <p className='text-[40px]'><MdError /></p>
+                  <p className='text-[40px] lg:text-[50px]'><MdError /></p>
                 </div>
-                <div className='grid justify-center'>
-                  <p>
+                <div className='grid justify-center lg:px-[10%]'>
+                  <p className='text-[1.6em]'>
                     Xatolik yuz berdi
                   </p>
-                  <p className=''>Bu sahifa Google Xaritalarni noto‘g‘ri yukladi. Texnik ma’lumotlar olish uchun JavaScript konsolini ko‘ring.
+                  <p className='text-[0.8em] lg:mt-[20px]'>Bu sahifa Google Xaritalarni noto‘g‘ri yukladi. Texnik ma’lumotlar olish uchun JavaScript konsolini ko‘ring.
                   </p>
                 </div>
               </div>

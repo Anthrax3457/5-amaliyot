@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 // image
-import Img1 from '../../assets/images/tm-img-06.jpg'
+import Img1 from '../../assets/images/tm-img-05.jpg'
+import Img2 from '../../assets/images/tm-img-06.jpg'
+import Img3 from '../../assets/images/tm-img-07.jpg'
+import Img4 from '../../assets/images/tm-img-08.jpg'
+import Img5 from '../../assets/images/tm-img-09.jpg'
+import Img6 from '../../assets/images/tm-img-10.jpg'
 // style
 import "./style.css";
 import { Link } from "react-router-dom";
@@ -15,27 +20,27 @@ const SecondCrad = () => {
             text: " Suspendisse id placerat risus. Mauris quis luctus risus.",
         },
         {
-            img: Img1,
+            img: Img2,
             title: "IMAGE TWO",
             text: "Maecenas purus sem, lobortis id odio in sapien.",
         },
         {
-            img: Img1,
+            img: Img3,
             title: "IMAGE THREE",
             text: " Suspendisse id placerat risus. Mauris quis luctus risus.",
         },
         {
-            img: Img1,
+            img: Img4,
             title: "IMAGE FOUR",
             text: "Maecenas purus sem, lobortis id odio in sapien.",
         },
         {
-            img: Img1,
+            img: Img5,
             title: "IMAGE FIVE",
             text: " Suspendisse id placerat risus. Mauris quis luctus risus.",
         },
         {
-            img: Img1,
+            img: Img6,
             title: "IMAGE SIX",
             text: "Maecenas purus sem, lobortis id odio in sapien.",
         },
@@ -60,7 +65,7 @@ const SecondCrad = () => {
                                 </div>
                                 <div className="gallery-card__content absolute top-0 left-0 z-10 p-[42.5px] w-full transition-all duration-300">
                                     <div className="flex flex-col justify-center">
-                                        <h2 className="gallery-card__title mt-[5.30em] text-[white] font-medium tracking-[0.027em] text-[2em] justify-center mb-[24px] items-center lg:text-[1.6em] lg:w-[100%] xl:text-[2em] xl:mt-[1.3em] lg:font-light lg:text-center lg:mt-[0.6em] xl:w-[100%] ">
+                                        <h2 className="gallery-card__title mt-[1.30em] text-[white] font-medium tracking-[0.027em] text-[2em] justify-center mb-[24px] items-center lg:text-[1.6em] lg:w-[100%] xl:text-[2em] xl:mt-[1.3em] lg:font-light lg:text-center lg:mt-[0.6em] xl:w-[100%] ">
                                             {item.title}
                                         </h2>
                                         <div className="gallery-card__info p-[20px] mt-[16px] border-[1px] border-white text-[16px] invisible opacity-0 transition-all duration-300">

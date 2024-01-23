@@ -5,9 +5,12 @@ import { IoMdFlash } from "react-icons/io";
 // import { LuMenu } from "react-icons/lu";
 import { CiMenuBurger } from "react-icons/ci";
 import { Link } from 'react-router-dom';
+import Menu from '../menu';
 
 
 const Header = () => {
+    const [open, setOpen] = useState(false)
+
     const [active, setActive] = useState('hero')
     return (
         <section className='flex justify-center'>
@@ -20,10 +23,14 @@ const Header = () => {
                         <p className='text-[30px] align-middle xl:text-[45px]'><IoMdFlash /></p>
                         <p className='text-[25px] align-middle leading-[1.1] -tracking-[0.15rem] font-extralight uppercase lg:-tracking-[0.099em] md:-tracking-[0.05em] xl:text-[35px] xl:-tracking-[0.06em] '>Upper</p>
                     </div>
-                    <div className='py-[12px] px-[15px] bg-[white] 
+                    {open && <div onClick={() => { setOpen(false) }} className='py-[12px] px-[15px] bg-[white] 
                     md:px-[15.2px] lg:hidden'>
                         <CiMenuBurger />
-                    </div>
+                    </div>}
+                    {!open && <div onClick={() => { setOpen(true) }} className='py-[12px] px-[15px] bg-[white] 
+                    md:px-[15.2px] lg:hidden'>
+                        <CiMenuBurger />
+                    </div>}
                     <div className='hidden lg:flex lg:gap-[10px]'>
                         <Link to='/'>
                             <p onClick={() => { setActive('hero') }} className={`tracking-wider ${active === 'hero' ? 'text-[#5394D6] xl:py-[42.3px] xl:w-[150px] w-[120px] grid justify-center py-[28px] bg-white xl:text-[1.8rem]' : 'text-[#2c343b] w-[120px] grid justify-center py-[28.1px] xl:text-[1.8rem]  xl:w-[150px] xl:py-[40.6px]'}`}>Home</p>
@@ -46,6 +53,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
+            {open && <Menu />}
         </section>
     )
 }
