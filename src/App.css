@@ -1,4 +1,8 @@
 .App {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
     background-size: cover;
     background-position: center;
     height: 100%;

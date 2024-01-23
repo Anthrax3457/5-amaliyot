@@ -16,7 +16,7 @@ const Header = () => {
         <section className='flex justify-center'>
             <div className='flex w-[95%] mt-[10px] bg-[#E0DBD4] py-[5px] px-5 justify-between 
             md:w-[97.5%] lg:px-[30px] lg:w-[98.2%] lg:py-[0px]
-            xl:mt-[31px] xl:w-[95.8%]'>
+            xl:mt-[31px] xl:w-[97.8%]'>
                 <div className='flex justify-center gap-[160px] items-center
             md:gap-[551px] lg:gap-[77px] xl:gap-[155px]'>
                     <div className='flex justify-center gap-[18px] items-center xl:gap-[10px]'>

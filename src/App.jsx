@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 import Routes from './Routes/routes'
 
 const App = () => {
-  
+
   useEffect(() => {
     AOS.init({
       duration: 5000, // Animatsiya davomiyligi (5 sekund)
@@ -15,8 +15,10 @@ const App = () => {
   }, []);
   return (
     <div className="App">
+      <div className='site-container'>
         <Routes />
       </div>
+    </div>
   )
 }
 

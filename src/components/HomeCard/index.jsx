@@ -8,7 +8,7 @@ const HomeCrad = () => {
     return (
         <div className='grid mt-[19px] justify-center gap-[30px] px-[11px]  
         md:flex md:flex-wrap md:px-0 md:gap-[0px]
-        lg:grid lg:grid-cols-3 lg:px-[10px] lg:ml-0 lg:gap-[20px] xl:px-[95px] xl:gap-[23px]'>
+        lg:grid lg:grid-cols-3 lg:px-[10px] lg:ml-0 lg:gap-[20px] xl:px-[92px] xl:gap-[23px]'>
 
             {/* Card 1 */}
 
@@ -47,7 +47,7 @@ const HomeCrad = () => {
 
             <div className='bg-[#E0DBD4] justify-center px-[1.8em] mt-[-30px] pt-[2.8em] pb-[2.3em]
             md:w-[365px] md:h-[407.9px] md:mt-[-2px] md:ml-[20px]  md:px-[2.36em]
-            lg:w-[324px]  lg:h-[438px]  lg:ml-0 lg:mt-[44px] xl:w-[370px]  xl:mt-[6px] xl:h-[409px]  xl:px-[2.4em]'>
+            lg:w-[324px]  lg:h-[438px]  lg:ml-0 lg:mt-[44px] xl:w-[370px]  xl:mt-[6px] xl:h-[409px]  xl:px-[2.9em]'>
                 <div className='flex justify-center'>
                     <p className='text-[70px]'><PiAirplaneTiltFill /></p>
                 </div>
