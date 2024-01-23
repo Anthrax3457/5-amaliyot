@@ -3,8 +3,8 @@ import { MdError } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div>
-      <div className='md:flex md:justify-center md:mt-[20px] md:gap-[10px] lg:px-[12px] lg:gap-[30px] lg:mt-[45px] xl:mt-[12px] xl:gap-16 xl:px-[0rem]'>
+    <div className=''>
+      <div className='md:flex md:justify-center md:mt-[20px] md:w-[768px] lg:w-full  md:gap-[10px]  lg:px-[12px] lg:gap-[30px] lg:mt-[45px]  xl:mt-[12px] xl:gap-16 xl:px-[0rem]'>
         <div className='grid justify-center text-start pl-[38px] py-[30px] md:pt-[25px] md:pl-[27px] xl:pl-[30px] mt-[20px] lg:w-[480px] bg-opacity-[0.5] xl:w-[555px] lg:h-[610px] bg-white md:w-[365px]'>
           <p className='text-balck text-[1.6em] md:tracking-tighter'>Contact Us</p>
           <p className='w-[89%] md:w-[93%] xl:w-full leading-[1.9] tracking-wider pt-[10px] xl:pt-[0px]'>Praesent tempus dapibus odio nec elementum. Sed elementum est quis tortor faucibus, et molestie nibh finibus. Mauris condimentum ex vestibulum fringilla consectetur.</p>
@@ -12,7 +12,7 @@ const Contact = () => {
             <input className='w-[88%] md:w-[90%] lg:w-[95%]  placeholder:text-[black] placeholder:font-light border px-8 py-5' type="text" name="" id="" placeholder='Name' />
             <input className='w-[88%]  md:w-[90%] lg:w-[95%] placeholder:text-[black] placeholder:font-light border px-8 py-5' type="text" name="" id="" placeholder='Email' />
             <textarea className='w-[88%] md:w-[90%] lg:w-[95%] placeholder:text-[black] placeholder:font-light border px-8 py-5 h-[170px]' name="" id="" cols="30" rows="10" placeholder='Your message'></textarea>
-            <div className='flex ml-[41%] lg:ml-[60%] xl:ml-[65%] xl:mt-0 mt-[2%]'>
+            <div className='flex ml-[41%] md:ml-[43%] lg:ml-[60%] xl:ml-[65%] xl:mt-0 mt-[2%]'>
               <button className='bg-[#0066CC] px-[50px] text-white text-[1.6em] py-[9px]'>Send</button>
             </div>
           </div>

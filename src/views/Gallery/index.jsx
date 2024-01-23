@@ -8,7 +8,7 @@ const Gallery = () => {
   return (
     <div className="gallery__container site-container">
       <div
-        className="grid justify-center items-center px-[20px] text-start mb-[30px] mt-[52px] md:pl-[43px] md:px-0 md:mt-[50px] 
+        className="grid justify-center items-center px-[30px] text-start mb-[30px] mt-[52px] md:pl-[43px] md:px-0 md:mt-[50px] 
       lg:mt-[77px] lg:pl-[3px] xl:mt-[20px] xl:px-0 xl:justify-start"
       >
         <p className="text-[1.6em] font-normal text-[white] leading-[1.2] tracking-[0.027em] md:text-[30px] md:tracking-[0.020em]">

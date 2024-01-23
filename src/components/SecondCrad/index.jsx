@@ -16,39 +16,39 @@ const SecondCrad = () => {
     const data = [
         {
             img: Img1,
-            title: "IMAGE ONE",
+            title: "PICTURE ONE",
             text: " Suspendisse id placerat risus. Mauris quis luctus risus.",
         },
         {
             img: Img2,
-            title: "IMAGE TWO",
+            title: "PICTURE TWO",
             text: "Maecenas purus sem, lobortis id odio in sapien.",
         },
         {
             img: Img3,
-            title: "IMAGE THREE",
+            title: "PICTURE THREE",
             text: " Suspendisse id placerat risus. Mauris quis luctus risus.",
         },
         {
             img: Img4,
-            title: "IMAGE FOUR",
+            title: "PICTURE FOUR",
             text: "Maecenas purus sem, lobortis id odio in sapien.",
         },
         {
             img: Img5,
-            title: "IMAGE FIVE",
+            title: "PICTURE FIVE",
             text: " Suspendisse id placerat risus. Mauris quis luctus risus.",
         },
         {
             img: Img6,
-            title: "IMAGE SIX",
+            title: "PICTURE SIX",
             text: "Maecenas purus sem, lobortis id odio in sapien.",
         },
     ];
-    const images = [Img1, Img1, Img1, Img1];
+    const images = [Img1, Img2, Img3, Img4,Img5, Img6,];
     return (
-        <div className="lg:px-2 xl:px-0">
-            <ul className={`gallery-card__list grid justify-center mt-[27px] gap-y-[19px] md:grid-cols-2 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-6 xl:gap-x-6 xl:gap-y-6 ${openModal ? 'block' : ''}`}>
+        <div className="lg:px-2 xl:px-0 w-[300px] md:w-[100%]">
+            <ul className={`gallery-card__list grid md:gap-x-[20px] md:pr-[15px] md:px-0 justify-center mt-[27px] gap-y-[19px] md:grid-cols-2 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-6 xl:gap-x-6 xl:gap-y-6 ${openModal ? 'block' : ''}`}>
                 {data.map((item, index) => {
                     return (
                         <li key={index} className="gallery-card__item">
@@ -65,7 +65,7 @@ const SecondCrad = () => {
                                 </div>
                                 <div className="gallery-card__content absolute top-0 left-0 z-10 p-[42.5px] w-full transition-all duration-300">
                                     <div className="flex flex-col justify-center">
-                                        <h2 className="gallery-card__title mt-[1.30em] text-[white] font-medium tracking-[0.027em] text-[2em] justify-center mb-[24px] items-center lg:text-[1.6em] lg:w-[100%] xl:text-[2em] xl:mt-[1.3em] lg:font-light lg:text-center lg:mt-[0.6em] xl:w-[100%] ">
+                                        <h2 className="gallery-card__title mt-[0.8em] text-[white] font-medium tracking-[0.020em] text-[2em] justify-center mb-[24px] items-center lg:text-[1.6em] lg:w-[100%] md:mt-[0.6em] xl:text-[2em] xl:mt-[1.3em] lg:font-light lg:text-center lg:mt-[0.6em] xl:w-[100%] ">
                                             {item.title}
                                         </h2>
                                         <div className="gallery-card__info p-[20px] mt-[16px] border-[1px] border-white text-[16px] invisible opacity-0 transition-all duration-300">

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 // image
-import Img1 from '../../assets/images/tm-img-04.jpg'
+import Img1 from '../../assets/images/tm-img-11.jpg'
 import Img2 from '../../assets/images/tm-img-12.jpg'
 import Img3 from '../../assets/images/tm-img-13.jpg'
 import Img4 from '../../assets/images/tm-img-14.jpg'
@@ -47,7 +47,7 @@ const ThirdCard = () => {
     ];
     const images = [Img1, Img2, Img3, Img4, Img5, Img6];
     return (
-        <div className="lg:px-2 xl:px-0">
+        <div className="lg:px-2 xl:px-0 w-[300px] md:w-full">
             <ul className={`gallery-card__list grid justify-center mt-[32px] gap-y-[21px] md:gap-y-[20px] md:grid-cols-1 lg:grid-cols-2 lg:gap-x-5 lg:mt-[29px] lg:gap-y-[22px] xl:gap-x-5 xl:gap-y-9${openModal ? 'block' : ''}`}>
                 {data.map((item, index) => {
                     return (
@@ -63,9 +63,9 @@ const ThirdCard = () => {
                                         className="gallery-card__img opacity-[0.8] scale-[1.15] transition-all duration-300"
                                     />
                                 </div>
-                                <div className="gallery-card__content absolute top-0 left-0 z-10 p-[42.5px] w-full transition-all duration-300">
+                                <div className="gallery-card__content absolute top-0 left-0 z-10 p-[40.5px] w-full transition-all duration-300">
                                     <div className="flex flex-col justify-center">
-                                        <h2 className="gallery-card__title mt-[1em] text-[white] text-[2em] font-medium tracking-[0.027em] md:text-[2.5em] justify-center mb-[24px] items-center md:mt-[3em] l lg:text-[2.6em] lg:w-[100%] xl:text-[2.3em] xl:mt-[3.2em] lg:font-light lg:text-center lg:mt-[1.6em] xl:w-[100%] ">
+                                        <h2 className="gallery-card__title mt-[0.8em] ml-4 md:ml-0 text-[white] text-[2em] font-medium tracking-[0.010em] md:text-[2.5em] justify-center mb-[24px] items-center md:mt-[3em] l lg:text-[2.6em] lg:w-[100%] xl:text-[2.3em] xl:mt-[3.2em] lg:font-light lg:text-center lg:mt-[1.6em] xl:w-[100%] ">
                                             {item.title}
                                         </h2>
                                         <div className="gallery-card__info p-[20px] mt-[0px] md:mt-[16px] border-[1px] border-white text-[16px] invisible opacity-0 transition-all duration-300">

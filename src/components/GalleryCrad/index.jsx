@@ -53,7 +53,7 @@ const GallleryCrad = () => {
                 </div>
                 <div className="gallery-card__content absolute top-0 left-0 z-10 p-[42.5px] w-full transition-all duration-300">
                   <div className="flex flex-col justify-center">
-                    <h2 className="gallery-card__title mt-[5.30em] text-[white] tracking-[0.027em] text-[30px] justify-center mb-[14px] items-center lg:text-[1.6em] lg:w-[100%] xl:text-[2em] xl:mt-[2.6em] lg:font-light lg:text-center lg:mt-[0.8em] xl:w-[100%] ">
+                    <h2 className="gallery-card__title mt-[3.85em] text-[white] tracking-[0.027em] text-[30px] justify-center mb-[14px] items-center lg:text-[1.6em] lg:w-[100%] xl:text-[2em] xl:mt-[2.6em] lg:font-light lg:text-center lg:mt-[0.8em] xl:w-[100%] ">
                       IMAGE ONE
                     </h2>
                     <div className="gallery-card__info p-[20px] mt-[16px] border-[1px] border-white text-[16px] invisible opacity-0 transition-all duration-300">
